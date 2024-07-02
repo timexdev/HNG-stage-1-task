@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Goals for the Next 2 Years</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#info">Goals</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+        <header id="home" class="profile">
+            <div class="profileDetail">
+                <h1 data-testid="slackDisplayName">Hey! I am Peter Ajala,</h1>
+                <p style="font-size: 30px;">Frontend Developer</p>
+                <a style="color: white;" href="mailto:ajalapeter1@gmail.com" data-testid="slackEmail">ajalapeter1@gmail.com</a>
+            </div>
+            <div class="profileimg">
+                <img src="./images/1699795625104.jpg" alt="profile picture" data-testid="slackProfilePicture">
+            </div>  
+        </header>
+        <main>
+            <section id="info" data-testid="currentInfo">
+                <h2>Current Information</h2>
+                <p>Current Time (UTC): <span data-testid="currentTimeUTC" id="currentTimeUTC"></span></p>
+                <p>Current Day: <span data-testid="currentDay" id="currentDay"></span></p>
+            </section>
+            <section id="goals">
+                <h2 style="color: white;">Tech Goals</h2>
+                <ul style="list-style-type: none; line-height: 30px;">
+                    <li>Become proficient in React and build 5 significant projects</li>
+                    <li>Master frontend development with React.js and Angular</li>
+                    <li>Contribute to open-source projects</li>
+                    <li>Improve my knowledge of database management with PostgreSQL and MongoDB</li>
+                    <li>Gain expertise in cloud technologies such as AWS and Azure</li>
+                    <li>Learn and implement best security practices in web development</li>
+                </ul>
+            </section>
+            <section id="connect">
+                <h2 style="color: rgb(53, 53, 124);">Connect</h2>
+                <a href="https://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a>
+                <a href="https://keyword.dog" data-testid="keywordLink">keyword.dog</a>
+                <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">scrapeanyweb.site</a>
+            </section>
+        </main>
+        
+    <script src="index.js"></script>
+</body>
+</html>
